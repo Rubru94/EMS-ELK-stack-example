@@ -1,0 +1,11 @@
+#  Tibco EMS
+ems:
+  :factory: com.tibco.tibjms.TibjmsConnectionFactory
+  # broker_url --> specific for activemq
+  # serverUrl --> specific for ems 
+  :serverUrl: tcp://ems:7222
+  :username: admin
+  :password: 
+  :require_jars:
+    - /opt/jms-2.0.jar
+    - /opt/tibjms.jar
